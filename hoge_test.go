@@ -13,6 +13,7 @@ var doubleTests = []doubleTest{
 	doubleTest{2, 4},
 	doubleTest{-5, -10},
 	doubleTest{4, 8},
+	doubleTest{5, 10},
 }
 
 func TestDouble(t *testing.T) {
