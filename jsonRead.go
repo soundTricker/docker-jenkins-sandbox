@@ -10,7 +10,7 @@ type TestJson struct {
 }
 
 func Hoge() TestJson {
-	b, err := ioutil.ReadFile("/workspace/test.json")
+	b, err := ioutil.ReadFile("./test.json")
 
 	if err != nil {
 		panic(err)
